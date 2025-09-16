@@ -9,7 +9,7 @@
 
 ## Architecture Overview
 
-This showcase leverages several key technologies:
+This experimental showcase leverages several key technologies:
 
 - **Spring AI MCP Framework** - Provides the MCP server implementation
 - **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
@@ -112,12 +112,12 @@ For a detailed analysis, please consider using the MCP [debugging capabilities](
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details. It does not come with any kind of warranty and it is not intended for productive usage.
 
 ## Contributing & Support
 
-This is a showcase project demonstrating the powerful potential of MCP integration with enterprise systems. Please feel free to open a GitHub issue if you have questions, suggestions, or encounter any challenges while exploring this integration approach.
+This is a showcase project demonstrating the powerful potential of MCP integration with enterprise systems. Please consider that it is not intended for usage in production environments. However, please feel free to open a GitHub issue if you have questions, suggestions, or encounter any challenges while exploring this integration approach.
 
 ---
 
-*Transforming enterprise data interaction through intelligent conversation.*
+*Transforming interaction with enterprise data through intelligent conversation.*
