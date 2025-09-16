@@ -106,7 +106,7 @@ This showcase leverages several key technologies:
 For all errors, please check the log file _sap-bp-mcp-server.log_
 
 **Debug Mode:**
-For a detailed anaylsis, please consider using the MCP [debugging capabilities](https://modelcontextprotocol.io/legacy/tools/debugging).
+For a detailed analysis, please consider using the MCP [debugging capabilities](https://modelcontextprotocol.io/legacy/tools/debugging).
 
 ## License
 
