@@ -29,7 +29,7 @@ Choose and install an LLM capable of interacting with the MCP. A comprehensive l
 Download the latest JAR file from the [releases section](../../releases) of this repository, or build from source using the instructions below.
 
 ### 4. Configure the Application
-Edit the application configuration _environmentSetup.properties_ to match your environment:
+Copy and edit the application configuration file _environmentSetup.properties.template_ to match your environment:
 
 ```properties
 # SAP Connection Configuration
@@ -74,7 +74,7 @@ mvn clean install
 
 This compiles the source code, runs tests, and packages the application into a deployable JAR file in the `target` directory.
 
-**⚠️ Important Note:** During the build process, integration tests will execute that create an actual Business Partner record in your configured SAP system. Ensure your test environment is properly set up to handle these operations.
+**⚠️ Important Note:** During the build process, an integration test will execute that creates an actual Business Partner record in your configured SAP system. Ensure your test environment is properly set up to handle these operations.
 
 ## Usage
 
