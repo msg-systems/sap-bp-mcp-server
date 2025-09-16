@@ -55,12 +55,13 @@ See the [mcp documentation](https://modelcontextprotocol.io/docs/develop/connect
 
 
 ## Building from Source
-To customize the solution and build on your own execute:
+To customize the solution, adapt the config file _environmentSetup.properties_ and build on your own execute:
 
 ```bash
 mvn clean install
 ```
 This will compile the source code, run tests, and package the application into a deployable JAR file in the `target` directory.
+Please note: While building, a test case will be executed in which partner will be created in SAP.  
 
 ## Usage
 
