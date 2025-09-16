@@ -57,6 +57,7 @@ Add the MCP server to your LLM configuration to enable seamless integration:
 			"command": "java",
 			"args": [
 				"-Dspring.ai.mcp.server.transport=STDIO",
+				"-Dspring.config.additional-location=file:Path\\To\\environmentSetup.properties",
 				"-jar",
 				"Path\\To\\sap-bp-mcp-server-1.0.0-SNAPSHOT.jar"
 			]
