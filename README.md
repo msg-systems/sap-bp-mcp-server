@@ -4,7 +4,16 @@
 
 ![Animation](https://github.com/user-attachments/assets/81e65e52-edb3-4882-8ec2-8cfa3b088f4f)
 
-### [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Architecture Overview](#architecture-overview) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
+### [Architecture Overview](#architecture-overview) ⚫ [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
+
+## Architecture Overview
+
+This showcase leverages several key technologies:
+
+- **Spring AI MCP Framework** - Provides the MCP server implementation
+- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
+- **Natural Language Processing** - Intelligent parsing of conversational input using AI and LLM
+- **Robust Error Handling** - Comprehensive validation and error recovery
 
 ## Prerequisites
 Before diving into this next-generation integration experience, ensure you have the following components ready:
@@ -84,15 +93,6 @@ Example conversation:
 ```
 "Create a new business partner Jane Doe in SAP"
 ```
-
-## Architecture Overview
-
-This showcase leverages several key technologies:
-
-- **Spring AI MCP Framework** - Provides the MCP server implementation
-- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
-- **Natural Language Processing** - Intelligent parsing of conversational input
-- **Robust Error Handling** - Comprehensive validation and error recovery
 
 ## Troubleshooting
 
