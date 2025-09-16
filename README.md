@@ -6,6 +6,7 @@
 
 ### [Architecture Overview](#architecture-overview) ⚫ [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
 
+
 ## Architecture Overview
 
 This showcase leverages several key technologies:
