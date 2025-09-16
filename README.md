@@ -16,7 +16,7 @@ Before diving into this next-generation integration experience, ensure you have 
 
 ## Setup & Configuration
 
-### 1. Configure Your SAP Server
+### 1. Configure your SAP Server
 Ensure your SAP system has the [Business Partner creation API](https://api.sap.com/api/API_BUSINESS_PARTNER/path/post_A_BusinessPartner) properly activated and accessible. Configure the necessary endpoints and authentication credentials.
 
 ### 2. Choose your LLM
