@@ -4,7 +4,7 @@
 
 ![Animation](https://github.com/user-attachments/assets/81e65e52-edb3-4882-8ec2-8cfa3b088f4f)
 
-### [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Architecture Overview](#architecture-overview) [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
+### [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Architecture Overview](#architecture-overview) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
 
 ## Prerequisites
 Before diving into this next-generation integration experience, ensure you have the following components ready:
