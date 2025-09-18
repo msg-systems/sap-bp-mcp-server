@@ -28,9 +28,6 @@ Before diving into this next-generation integration experience, ensure you have 
 
 ### 1. Configure your SAP Server
 Ensure your SAP system has the [Business Partner creation API](https://api.sap.com/api/API_BUSINESS_PARTNER/path/post_A_BusinessPartner) properly activated and accessible. The API endpoint must be reachable from your application environment, and you'll need a user with valid credentials and appropriate authorization for Business Partner creation operations.
-**Required SAP Authorizations:**
-- `S_SERVICE` - For OData service access
-- `F_BUPA_*` - Business Partner maintenance authorizations
   
 ### 2. Choose your LLM
 Choose and install an LLM capable of interacting with the MCP. A comprehensive list of LLMs can be found [here](https://modelcontextprotocol.io/clients).
