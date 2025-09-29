@@ -1,6 +1,6 @@
 # SAP-LLM Integration Showcase with Model Context Protocol
 
-> Experience seamless AI-powered enterprise integration. This innovative showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the cutting-edge [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on robust [Java](https://adoptopenjdk.net/) foundation with Spring's advanced [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
+> Experience seamless AI-powered enterprise systems integration: This showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on [Java](https://adoptopenjdk.net/) foundation with Spring's [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
 
 ![Sample](https://github.com/user-attachments/assets/281e5182-5093-4500-b490-ea158c4ad905)
 
@@ -9,18 +9,17 @@
 
 ## Architecture Overview
 
-This experimental showcase leverages several key technologies:
+This showcase leverages several key technologies:
 
 - **Spring AI MCP Framework** - Provides the MCP server implementation
-- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
 - **Natural Language Processing** - Intelligent parsing of conversational input using AI and LLM
-- **Robust Error Handling** - Comprehensive validation and error recovery
+- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
 
 ## Prerequisites
-Before diving into this next-generation integration experience, ensure you have the following components ready:
+Before diving into this novel integration experience, ensure you have the following components ready:
 
 - **LLM with MCP Support** - A Large Language Model that supports the Model Context Protocol (see [supported clients](https://modelcontextprotocol.io/clients))
-- **SAP System** - SAP environment with an activated Business Partner creation service (details see below)
+- **SAP System** - SAP environment with an published Business Partner creation service (details see below)
 - **Java Runtime** - Java 17 or higher for optimal performance
 - **Maven** - For building the project from source (version 3.6+ recommended)
 
