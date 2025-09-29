@@ -2,7 +2,7 @@
 
 > Experience seamless AI-powered enterprise integration. This innovative showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the cutting-edge [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on robust [Java](https://adoptopenjdk.net/) foundation with Spring's advanced [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
 
-![Animation](https://github.com/user-attachments/assets/81e65e52-edb3-4882-8ec2-8cfa3b088f4f)
+![Sample](https://github.com/user-attachments/assets/281e5182-5093-4500-b490-ea158c4ad905)
 
 ### [Architecture Overview](#architecture-overview) ⚫ [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
 
