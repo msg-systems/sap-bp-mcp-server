@@ -94,13 +94,7 @@ Example conversation:
 
 ## Troubleshooting
 
-**Common Issues:**
-
-- **Connection Refused**: Verify your SAP endpoint URL and network connectivity
-- **Authentication Failed**: Check your SAP credentials and user authorizations
-- **MCP Server Not Found**: Ensure Java path is correct in LLM configuration
-- **Business Partner Creation Failed**: Verify required fields and SAP customization settings
-
+**Check log log file:**
 For all errors, please check the log file _sap-bp-mcp-server.log_
 
 **Debug Mode:**
@@ -116,4 +110,4 @@ This is a showcase project demonstrating the powerful potential of MCP integrati
 
 ---
 
-*Transforming interaction with enterprise data through intelligent conversation.*
+*Transforming interaction with enterprise systems through intelligent conversation.*
