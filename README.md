@@ -39,7 +39,7 @@ Copy and edit the application configuration file _environmentSetup.properties.te
 
 ```properties
 # SAP Connection Configuration
-connection.endpoint.createpartner=http://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
+connection.endpoint.createpartner=https://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
 connection.user=userName
 connection.password=secretPassword
 ```
