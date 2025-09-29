@@ -1,6 +1,6 @@
 # SAP-LLM Integration Showcase with Model Context Protocol
 
-> Experience seamless AI-powered enterprise systems integration: This showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on [Java](https://adoptopenjdk.net/) foundation with Spring's [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
+> Experience seamless AI-enterprise systems integration: This showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on [Java](https://adoptopenjdk.net/) foundation with Spring's [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
 
 ![Sample](https://github.com/user-attachments/assets/281e5182-5093-4500-b490-ea158c4ad905)
 
@@ -44,7 +44,7 @@ connection.user=userName
 connection.password=secretPassword
 ```
 ### 5. Configure Your LLM
-Add the MCP server to your LLM configuration to enable seamless integration:
+Add the MCP server to your LLM configuration to enable integration:
 
 ```json
 {
