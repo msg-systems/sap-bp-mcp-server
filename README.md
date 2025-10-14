@@ -1,25 +1,25 @@
 # SAP-LLM Integration Showcase with Model Context Protocol
 
-> Experience seamless AI-powered enterprise integration. This innovative showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the cutting-edge [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on robust [Java](https://adoptopenjdk.net/) foundation with Spring's advanced [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
+> Experience seamless AI-enterprise systems integration: This showcase demonstrates how Large Language Models can intelligently interact with SAP Business Partner data through the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP). Users can effortlessly create new business partners directly through natural language conversations with their LLM of choice. Built on [Java](https://adoptopenjdk.net/) foundation with Spring's [MCP implementation](https://docs.spring.io/spring-ai/reference/api/mcp/mcp-overview.html).
 
-![Animation](https://github.com/user-attachments/assets/81e65e52-edb3-4882-8ec2-8cfa3b088f4f)
+![Sample](https://github.com/user-attachments/assets/281e5182-5093-4500-b490-ea158c4ad905)
 
 ### [Architecture Overview](#architecture-overview) ⚫ [Prerequisites](#prerequisites) ⚫ [Setup & Configuration](#setup--configuration) ⚫ [Building from Source](#building-from-source) ⚫ [Usage](#usage) ⚫ [Troubleshooting](#troubleshooting) ⚫ [License](#license) ⚫ [Contributing & Support](#contributing--support)
+
 
 ## Architecture Overview
 
 This showcase leverages several key technologies:
 
 - **Spring AI MCP Framework** - Provides the MCP server implementation
-- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
 - **Natural Language Processing** - Intelligent parsing of conversational input using AI and LLM
-- **Robust Error Handling** - Comprehensive validation and error recovery
+- **SAP OData APIs** - Allow direct integration with SAP Business Partner services  
 
 ## Prerequisites
-Before diving into this next-generation integration experience, ensure you have the following components ready:
+Before diving into this novel integration experience, ensure you have the following components ready:
 
 - **LLM with MCP Support** - A Large Language Model that supports the Model Context Protocol (see [supported clients](https://modelcontextprotocol.io/clients))
-- **SAP System** - SAP environment with an activated Business Partner creation service (details see below)
+- **SAP System** - SAP environment with an published Business Partner creation service (details see below)
 - **Java Runtime** - Java 17 or higher for optimal performance
 - **Maven** - For building the project from source (version 3.6+ recommended)
 
@@ -27,9 +27,6 @@ Before diving into this next-generation integration experience, ensure you have 
 
 ### 1. Configure your SAP Server
 Ensure your SAP system has the [Business Partner creation API](https://api.sap.com/api/API_BUSINESS_PARTNER/path/post_A_BusinessPartner) properly activated and accessible. The API endpoint must be reachable from your application environment, and you'll need a user with valid credentials and appropriate authorization for Business Partner creation operations.
-**Required SAP Authorizations:**
-- `S_SERVICE` - For OData service access
-- `F_BUPA_*` - Business Partner maintenance authorizations
   
 ### 2. Choose your LLM
 Choose and install an LLM capable of interacting with the MCP. A comprehensive list of LLMs can be found [here](https://modelcontextprotocol.io/clients).
@@ -42,12 +39,12 @@ Copy and edit the application configuration file _environmentSetup.properties.te
 
 ```properties
 # SAP Connection Configuration
-connection.endpoint.createpartner=http://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
+connection.endpoint.createpartner=https://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
 connection.user=userName
 connection.password=secretPassword
 ```
 ### 5. Configure Your LLM
-Add the MCP server to your LLM configuration to enable seamless integration:
+Add the MCP server to your LLM configuration to enable integration:
 
 ```json
 {
@@ -56,6 +53,7 @@ Add the MCP server to your LLM configuration to enable seamless integration:
 			"command": "java",
 			"args": [
 				"-Dspring.ai.mcp.server.transport=STDIO",
+				"-Dspring.config.additional-location=file:Path\\To\\environmentSetup.properties",
 				"-jar",
 				"Path\\To\\sap-bp-mcp-server-1.0.0-SNAPSHOT.jar"
 			]
@@ -96,13 +94,7 @@ Example conversation:
 
 ## Troubleshooting
 
-**Common Issues:**
-
-- **Connection Refused**: Verify your SAP endpoint URL and network connectivity
-- **Authentication Failed**: Check your SAP credentials and user authorizations
-- **MCP Server Not Found**: Ensure Java path is correct in LLM configuration
-- **Business Partner Creation Failed**: Verify required fields and SAP customization settings
-
+**Check log log file:**
 For all errors, please check the log file _sap-bp-mcp-server.log_
 
 **Debug Mode:**
@@ -110,12 +102,12 @@ For a detailed analysis, please consider using the MCP [debugging capabilities](
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details. It does not come with any kind of warranty and it is not intended for productive usage.
 
 ## Contributing & Support
 
-This is a showcase project demonstrating the powerful potential of MCP integration with enterprise systems. Please feel free to open a GitHub issue if you have questions, suggestions, or encounter any challenges while exploring this integration approach.
+This is a showcase project demonstrating the powerful potential of MCP integration with enterprise systems. Please consider that it is not intended for usage in production environments. However, please feel free to open a GitHub issue if you have questions, suggestions, or encounter any challenges while exploring this integration approach.
 
 ---
 
-*Transforming enterprise data interaction through intelligent conversation.*
+*Transforming interaction with enterprise systems through intelligent conversation.*
