@@ -25,7 +25,6 @@ public class McpServerApplicationTest {
 
 	@Test
 	void readConfig() {
-		System.out.println(envSetup.getPassword());
 		System.out.println(envSetup.getUser());
 	}
 
