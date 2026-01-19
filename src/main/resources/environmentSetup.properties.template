@@ -1,3 +1,3 @@
-connection.endpoint.createpartner=http://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
+connection.endpoint.createpartner=https://mysapserver.com:8000/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner
 connection.user=user
 connection.password=secretPassword
