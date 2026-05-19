@@ -63,6 +63,8 @@ Add the MCP server to your LLM configuration to enable integration:
 ```
 See the [MCP documentation](https://modelcontextprotocol.io/docs/develop/connect-local-servers) for detailed guidance on connecting to MCP servers.
 
+⚠️ Please ensure that the access to the Spring server started is restricted, e.g. only from your local test machine running it.
+
 ## Building from Source
 For developers who want to customize the showcase and build it on their own:
 
